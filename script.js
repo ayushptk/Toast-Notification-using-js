@@ -1,3 +1,4 @@
+ let toastBox = document.getElementById('toastBox');
  function showtoast(){
      let toast = document.createElement('div');
      toast.classList.add('toast');
