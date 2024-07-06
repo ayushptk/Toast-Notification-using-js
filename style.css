@@ -19,15 +19,12 @@ body{
     cursor: pointer;
 
 }
-#toast-box{
+#toastBox{
   position: absolute;
   background-color: aqua;
-  width: 100px;
-  height: 100px;
   bottom: 30px;
   right: 30px;  
   display: flex;
   align-items: flex-end;
   flex-direction: column;
-
 }
