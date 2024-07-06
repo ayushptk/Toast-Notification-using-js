@@ -6,3 +6,28 @@
 body{
     background-color: #f7edff;
 }
+.buttons{
+    margin: 50px;
+}
+.buttons button{
+    background: #333;
+    color: #fff;
+    border: 0;
+ padding: 10px 30px;
+    outline: 0;
+    margin: 5px;
+    cursor: pointer;
+
+}
+#toast-box{
+  position: absolute;
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+  bottom: 30px;
+  right: 30px;  
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+
+}
