@@ -22,6 +22,7 @@
      },3000);
      
  }
+ 
 //  function ShowImage(){
 //     let img = document.createElement('img');
 //     img.classList.add('img');
