@@ -21,7 +21,7 @@ body{
 }
 #toastBox{
   position: absolute;
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
   bottom: 30px;
   right: 30px;  
   display: flex;
@@ -35,4 +35,6 @@ body{
     font-weight: 500;
     margin: 15px 0;
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
+display: flex;
+align-items: center;
 }

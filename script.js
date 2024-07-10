@@ -1,11 +1,15 @@
  let toastBox = document.getElementById('toastBox');
+ let sucessmsg = 'Sucessfully submit';
+ let errorsmsg = 'Please FIx the error';
+ let invalidmsg = 'Invalid input';
+ 
+
  let imgbox = document.getElementById('imgbox');
  function Showtoast(){
      let toast = document.createElement('div');
      toast.classList.add('toast');
      toast.innerHTML = 'You have successfully logged in!';
      toastBox.appendChild(toast);
-
  }
 //  function ShowImage(){
 //     let img = document.createElement('img');
