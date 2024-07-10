@@ -5,10 +5,10 @@
  
 
  let imgbox = document.getElementById('imgbox');
- function Showtoast(){
+ function Showtoast(msg){
      let toast = document.createElement('div');
      toast.classList.add('toast');
-     toast.innerHTML = 'You have successfully logged in!';
+     toast.innerHTML = msg;
      toastBox.appendChild(toast);
  }
 //  function ShowImage(){
