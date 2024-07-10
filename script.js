@@ -1,7 +1,7 @@
  let toastBox = document.getElementById('toastBox');
- let sucessmsg = 'Sucessfully submit';
- let errorsmsg = 'Please FIx the error';
- let invalidmsg = 'Invalid input';
+ let sucessmsg = ' <i class="fa-solid fa-circle-check"></i> Sucessfully submit';
+ let errorsmsg = ' <i class="fa-solid fa-circle-xmark"></i>Please FIx the error';
+ let invalidmsg = ' <i class="fa-solid fa-circle-exclamation"></i>Invalid input';
  
 
  let imgbox = document.getElementById('imgbox');
