@@ -9,7 +9,6 @@
      toast.classList.add('toast');
      toast.innerHTML = msg;
      toastBox.appendChild(toast);
-
      if(msg.includes('error')){
         toast.classList.add('error');
      }
@@ -21,6 +20,7 @@
      },3000);
      
  }
+
  
 //  function ShowImage(){
 //     let img = document.createElement('img');
