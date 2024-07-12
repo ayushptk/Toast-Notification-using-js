@@ -1,7 +1,7 @@
  let toastBox = document.getElementById('toastBox');
- let sucessmsg = ' <i class="fa-solid fa-circle-check"></i> Sucessfully submit';
- let errorsmsg = ' <i class="fa-solid fa-circle-xmark"></i>Please FIx the error';
- let invalidmsg = ' <i class="fa-solid fa-circle-exclamation"></i>Invalid input';
+ let sucessmsg = ' <i class="fa-solid fa-circle-check"></i> Sucessfully submit  <i  class="fa-solid fa-circle-xmark" id="okaycircle"> ';
+ let errorsmsg = ' <i class="fa-solid fa-circle-xmark"></i>Please FIx the error  <i  class="fa-solid fa-circle-xmark" id="okaycircle">';
+ let invalidmsg = ' <i class="fa-solid fa-circle-exclamation"></i>Invalid input  <i  class="fa-solid fa-circle-xmark" id="okaycircle">';
 
  let imgbox = document.getElementById('imgbox');
  function Showtoast(msg){
@@ -9,6 +9,9 @@
      toast.classList.add('toast');
      toast.innerHTML = msg;
      toastBox.appendChild(toast);
+   //   let cross = document.createElement('i');
+   //   toast.classList.add('cross');
+     
      if(msg.includes('error')){
         toast.classList.add('error');
      }
@@ -18,6 +21,11 @@
      setTimeout(()=>{
         toast.remove();
      },3000);
+
+     let cross = document.getElementById("okaycircle")
+     cross.addEventListener('click',()=>{
+      toast.remove();
+      });
      
  }
 
