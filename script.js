@@ -26,6 +26,7 @@
      cross.addEventListener('click',()=>{
       toast.remove();
       });
+      let div = document.getElementsByTagName("div");
      
  }
 
